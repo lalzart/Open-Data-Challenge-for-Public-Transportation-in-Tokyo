@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,700,800,900');
+
+*{
+ margin:0; 
+ font-family: 'raleway';
+}
+
+#modal{
+  /* display:none; */
+  position: fixed;
+  left:30%;
+  right:30%;
+  top: 2%;
+  bottom:33%;
+  background:#223;
+  padding:20px;
+  border-radius: 6px;
+  color:#eee;
+}
+
+#modal label{
+  margin-bottom:10px;
+  font-size:22px;
+  display: block;
+  font-weight:700;
+}
+#modal input{
+  padding:33px;
+}
+#modal select{
+  width: 250px;
+  padding: 40px;
+  font-size:16px;
+}
+
+#modal option{
+  padding:22px;
+}
+
+#modal center{
+  margin-top:22px;
+}
+
+#modal button{
+  font-weight:700;
+  padding:6px;
+  width:80px;
+}
+
+#title{
+  padding-top:30px;
+  border-bottom: 8px solid #CE045B;
+  color:#223;
+  padding-bottom: 8px;
+}
+.container{
+  margin:0 auto;
+  width:70%;
+  text-align:center;
+  font-size: 18px;
+  font-family:'raleway';
+  background: #ddd;
+ 
+}
+
+button{
+  margin-top:12px;
+  font-size: 16px;
+  border-radius: 4px;
+  display: inline;
+  text-transform: uppercase;
+}
+
+h3{
+  display: inline;
+}
+
+#a{
+  font-size: 72px;
+  padding-top:22px;
+  padding-bottom:42px;
+  color:#007e8c;
+  font-weight:700;
+}
+#times{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#current{
+  font-size:22px;
+  font-weight:600;
+  margin-bottom: 70px;
+  
+}
+#b{
+  font-size: 52px;
+  font-weight:600;
+  border-bottom:1px solid #3f51b5;
+  width:50%;
+  margin: auto;
+}
+#c{
+  font-size: 52px;
+  font-weight:600;
+  border-bottom:1px solid #3f51b5;
+  width:50%;
+  margin: auto;
+}
+#next{
+  font-size:22px; 
+  margin-left:0px;
+  margin-bottom: 70px;
+  font-weight:600;
+}
+

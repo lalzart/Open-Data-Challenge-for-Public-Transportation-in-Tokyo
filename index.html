@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="https://bootswatch.com/4/materia/bootstrap.min.css"> -->
+  <title>Catch Train</title>
+</head>
+<body>
+  <div class="container">
+      <button id="location">Change Location</button>
+    <h1 id="title"></h1>
+    <div id="a"></div>
+    <div id="times">
+      <div id="current">
+        The next Train is at:
+          <div id="b"></div>
+      </div>
+      <div id="next">
+        The next next train is at:    
+        <div id="c"></div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="modal">
+    <form>
+      <label>Operator</label>
+      <select id="operator">
+          <option value=""></option>
+        <option value="TokyoMetro">Tokyo Metro</option>
+        <option value="JR-East">JR-East</option>
+        <option value="Keisei">Keisei</option>
+        <option value="Odakyu">Odakyu</option>
+        <option value="Toei">Toei</option>
+      </select>
+      <label>Line</label>
+      <select id="line">
+          <option value=""></option>
+      </select>
+      <label>Station</label>
+      <select id="station">
+          <option value=""></option>
+      </select>
+      <label>Direction</label>
+      <select id="Direction">
+      <option value=""></option>
+    </select>
+    </form>
+    <center><button id="save">SAVE</button></center>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
